@@ -183,11 +183,12 @@
     }
 /* ========================================== Latest Project END ================================================= */
 
-/*CONTENT START*/
-
+/*CONTENT START / Content Here It's Work*/
+body{
+    background: hsl(0, 0%, 14%);
+}
 .container {
     width: 100%;
-    background: hsl(0, 0%, 14%); 
   }
 
 .content{
@@ -244,13 +245,13 @@
     
 }
 
-.image{
+.img-content{
     position: absolute;
     width: 499px;
     height: 599px;
     overflow: hidden;
     background-size: cover;
-    background: url('../image/img-item.jpeg') 70% 30%;
+    background: url(img-item.jpeg) 70% 30%;
     right: 0;
     top:0;
     border-radius: 20px; 
@@ -264,5 +265,4 @@
     top: 36px;
     right: 36px;
 }
-
-/*CONTENT END*/
+/*CONTENT END / Content Here It's Work*/
