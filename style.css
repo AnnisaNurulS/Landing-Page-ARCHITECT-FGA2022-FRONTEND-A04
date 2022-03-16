@@ -361,6 +361,7 @@ body{
     padding-right: 200px;
     background-color: #242424;
     width: 100%;
+    margin-bottom: 50px;
 }
 .heading h2{
     height: 20px;
@@ -382,7 +383,13 @@ body{
     width: 400px;
     padding: 30px 35px;
     height: 250px;
+    transition: 0.3s ease-out;
 }
+
+.comment:hover{
+    transform: translateY(-5px);
+}
+
 .comment h2{    
     color: #ffffff;
     font-size: 36px;
@@ -417,8 +424,8 @@ a:hover{
 
 .footer{
     background-color: #323232;
-    height: 200px;
     width: 100%;
+    padding: 25px;
 }
 
 .footer-list{
@@ -431,9 +438,7 @@ a:hover{
     color: #EAEF58;
     font-size: 24px;
     font-style: normal;
-    letter-spacing: 0.15em;
     margin-left: 100px;
-    padding: 80px 0px;
 }
 
 .footer-list ul{    
@@ -444,6 +449,6 @@ a:hover{
     float: left;
     font-size: 18px;
     color: #ffffff;
-    padding: 80px 50px;    
+    margin: 10px 20px;    
     list-style: none;
 }
