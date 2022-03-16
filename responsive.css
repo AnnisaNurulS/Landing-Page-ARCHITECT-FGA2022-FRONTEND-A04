@@ -1,5 +1,4 @@
 /*Responsive tab dan smartphone navbar dan 2 judul besar*/
-
 @media screen and (max-width: 1000px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
