@@ -1,52 +1,19 @@
 /*Responsive tab dan smartphone navbar dan 2 judul besar*/
-@media screen and (max-width: 1000px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .top-wrapper h3{
-    font-size: 20px;
-  }
+@media screen and (max-width: 1000px){
 
-  .top-wrapper h1{
-    font-size: 80px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  .top-wrapper h3{
-    font-size: 20px;
-  }
-
-  .top-wrapper h1{
-    font-size: 50px;
-  }
-}
-
-
-
-@media screen and (max-width: 600px) {
+/* header dan contenct home */
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
-  }
+    .top-wrapper h3{
+      font-size: 20px;
+    }
   
-  @media screen and (max-width: 600px) {
+    .top-wrapper h1{
+      font-size: 80px;
+    }
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -58,15 +25,17 @@
       display: block;
       text-align: left;
     }
-  }
-/*Responsive tab dan smartphone navbar dan 2 judul besar akhir*/
-
-/* ===== Responsive dari progate ===== */
-@media screen and (max-width: 1000px){   
-    .content-group-latest-project{
-        text-align: center;
+  
+    .top-wrapper h3{
+      font-size: 20px;
     }
-    /* MAIN CONTENT RESPONSIVE 1000PX */
+  
+    .top-wrapper h1{
+      font-size: 50px;
+    }   
+/*==========================  */
+
+/* MAIN CONTENT RESPONSIVE 1000PX */
     .main-left {
         padding-left: 100px;
     }
@@ -95,15 +64,21 @@
     .main-content:hover {
         width: 400px;
     }
-    
-    /*CONTENT START 1000px/ Content Here It's Work*/
+/* ========================== */
+
+/* BAGIAN LATEST PROJECT */
+    .content-group-latest-project{
+        text-align: center;
+    }
+/* ========================== */
+
+/*CONTENT START 1000px/ Content Here It's Work*/
     .container {
         max-width: 1000px;
         width: 100%;
     }
     
     .content{
-        position: absolute;
         width: 796px;
         height: 450px;
         margin: 100px 100px 100px 104px;
@@ -118,194 +93,217 @@
         padding: 15px 0px;
     }
     .img-content{
-        position: absolute;
         width: 361px;
         height: 405px;
     }
     .border-img{
-        position: absolute;
         width: 361px;
         height: 405px;
         top: 26px;
         right: 26px;
     }
-    /*CONTENT END 1000px/ Content Here It's Work*/
-    
-    /* ============================ client comment dan footer*/
-    .comment-wrapper {
-        text-align: center;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .comment{
-        width: 280px;
-        padding: 35px 40px;
-        
-    }
-    .footer-list li{
-        padding: 15px;
-    }
-    .footer-list ul{
-        margin-right: 85px;
-    }
-    
+/*CONTENT END 1000px/ Content Here It's Work*/
+
 }
 
-@media screen and (max-width: 670px){
-     .tulisan-besar{
-        padding-left: 100px;
-     }
-    .latest-projects{
-        padding: 50px;
-    }
-    .latest-projects-head{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .latest-projects-head h2{
-        margin-bottom: 15px;
-    }
-    .latest-projects-head li{
-        padding: 10px
-    }
-    .content-group-latest-project{
-        text-align: center;
-    }
-    /* MAIN CONTENT RESPONSIVE 670PX */
-    .main {
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-    .main-left {
-        width: 100%;
-        padding: 100px 100px;
-        text-align: center;
-    }
-    .top > h1 {
-        font-size: 24px;
-    }
-    .top > p {
-        font-size: 12px;
-        line-height: 1.5;
-    }
-    .bottom {
-        margin-top: 120px;
-    }
-    .bottom > h2 { 
-        font-size : 50px;
-        padding-bottom: 20px;
-    }
-    .bottom > h3 {
-        font-size: 20px;
-    }
-    .main-right {
-        margin: 100px 100px 0 100px;
-    }
-    .main-content, .border {
-        width: 300px;
-        height: 350px;
-    }
-    .main-content:hover {
-        width: 330px;
-    }
-    
-    /*CONTENT START 670px/ Content Here It's Work*/
-    .container {
-        max-width: 670px;
-        width: 100%; 
+  
+  
+  
+  @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+        float: right;
+        display: block;
       }
+    }
     
-    .content{
-        width: 359px;
-        height: 931px;
-        position: none;
-        /* left: 156px; */
-        
-    }
-    .item{
-        width: 100%;
-        margin: 0px auto;
-        
-    }
-    .heading{
-        text-align: center;
-    }
-    .heading h1{
-        margin-bottom: 30px;
-    }
-    .item-txt{  
-        width: 359px;
-        text-align: center;
-        
-    }
-    .item-img{
-        width: 361px;
-        height: 431px;
-        position: relative;
-        margin-bottom:  50px;
-        
-    }
-    .img-content{
-        width: 361px;
-        height: 405px;
-        text-align: center;
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
         position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
     }
-    .border-img{
-        width: 361px;
-        height: 405px;
-        position: absolute;
-    }
-    .item-txt p{
-        font-size: 18px;
-        line-height: 21px;
-    }
-    /*CONTENT END 670px/ Content Here It's Work*/
-    
-    /* ========================== responsive client comment dan footer*/
-    .comment-wrapper{
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 650px;
-    }
-    .heading h2{
-        text-align: center;
-    }
-    .comments{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .comment{
-        padding-left: 30px;
-        margin-top: 45px;
-        width: 400px;
-    }
-    .footer-list h2{
-        margin-left: 0px;
-        padding-top: 15px;
-        padding-bottom: 0px;
-    }
-    .footer-list {
-        padding: 45px;
-        flex-direction: column;
-    }
-    .footer-list ul{
-        margin-right: 0px;
-        
-    }
-}
+  /*Responsive tab dan smartphone navbar dan 2 judul besar akhir*/
+  
+  /* ===== Responsive dari progate ===== */
+  @media screen and (max-width: 1000px){        
+      /* ============================ client comment dan footer*/
+      .comment-wrapper {
+          text-align: center;
+          padding-left: 15px;
+          padding-right: 15px;
+      }
+      .comment{
+          width: 280px;
+          padding: 35px 40px;   
+      }
+      .footer-list{
+          flex-direction: column;
+          align-items: center;
+      }
+  }
+  
+  @media screen and (max-width: 670px){
+      .tulisan-besar{
+          padding-left: 100px;
+      }
+      .latest-projects{
+          padding: 50px;
+      }
+      .latest-projects-head{
+          flex-direction: column;
+          justify-content: center;
+      }
+      .latest-projects-head h2{
+          margin-bottom: 15px;
+      }
+      .latest-projects-head li{
+          padding: 10px
+      }
+      .content-group-latest-project{
+          text-align: center;
+      }
+      /* MAIN CONTENT RESPONSIVE 670PX */
+      .main {
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
+      }
+      .main-left {
+          width: 100%;
+          padding: 100px 100px;
+          text-align: center;
+      }
+      .top > h1 {
+          font-size: 24px;
+      }
+      .top > p {
+          font-size: 12px;
+          line-height: 1.5;
+      }
+      .bottom {
+          margin-top: 120px;
+      }
+      .bottom > h2 { 
+          font-size : 50px;
+          padding-bottom: 20px;
+      }
+      .bottom > h3 {
+          font-size: 20px;
+      }
+      .main-right {
+          margin: 100px 100px 0 100px;
+      }
+      .main-content, .border {
+          width: 300px;
+          height: 350px;
+      }
+      .main-content:hover {
+          width: 330px;
+      }
+      
+      /*CONTENT START 670px/ Content Here It's Work*/
+      .container {
+          max-width: 670px;
+          width: 100%; 
+        }
+      
+      .content{
+          width: 359px;
+          height: 931px;
+          position: none;
+          /* left: 156px; */
+          
+      }
+      .item{
+          width: 100%;
+          margin: 0px auto;
+          
+      }
+      .heading{
+          text-align: center;
+      }
+      .heading h1{
+          margin-bottom: 30px;
+      }
+      .item-txt{  
+          width: 359px;
+          text-align: center;
+          
+      }
+      .item-img{
+          width: 361px;
+          height: 431px;
+          position: relative;
+          margin-bottom:  50px;
+          
+      }
+      .img-content{
+          width: 361px;
+          height: 405px;
+          text-align: center;
+          position: absolute;
+      }
+      .border-img{
+          width: 361px;
+          height: 405px;
+          position: absolute;
+      }
+      .item-txt p{
+          font-size: 18px;
+          line-height: 21px;
+      }
+      /*CONTENT END 670px/ Content Here It's Work*/
+      
+      /* ========================== responsive client comment dan footer*/
+      .comment-wrapper{
+          padding-left: 10px;
+          padding-right: 10px;
+      }
+      .heading h2{
+          text-align: center;
+      }
+      .comments{
+          padding-left: 10px;
+          padding-right: 10px;
+      }
+      .comment{
+          padding-left: 30px;
+          margin-top: 45px;
+          width: 400px;
+      }
+      .footer-list h2{
+          margin-left: 0px;
+          padding-top: 15px;
+          padding-bottom: 0px;
+      }
+      .footer-list {
+          padding: 45px;
+          flex-direction: row;
+      }
 
-/* ===== Responsive Tambahan Latest Project ===== */
-@media screen and (max-width: 780px){
-    .latest-projects{
-        padding: 50px;
-    }
-    .latest-projects-head li{
-        padding: 10px
-    }
-    .content-group-latest-project{
-        text-align: center;
-    }
-}
-/*================================================*/
+      .footer-list li{
+          display: block;
+      }
+  }
+  
+  /* ===== Responsive Tambahan Latest Project ===== */
+  @media screen and (max-width: 780px){
+      .latest-projects{
+          padding: 50px;
+      }
+      .latest-projects-head li{
+          padding: 10px
+      }
+      .content-group-latest-project{
+          text-align: center;
+      }
+  }
+  /*================================================*/
