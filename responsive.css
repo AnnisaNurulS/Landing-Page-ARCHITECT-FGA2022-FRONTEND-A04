@@ -307,3 +307,36 @@
       }
   }
   /*================================================*/
+  @media screen and (max-width: 500px) {
+      .tulisan-besar{
+          padding-left: 20px;
+      }
+      .tulisan-besar h1{
+          font-size: 30px;
+      }
+      .tulisan-besar h3{
+          font-size: 12px;
+      }
+
+      .main-content{
+        width:200px;
+        height: 260px;
+      }
+      .border{
+        width:200px;
+        height: 260px;
+      }
+      .heading h1{
+          font-size: 20px;
+      }
+      .img-content{
+        width: 199px;
+        height: 299px;
+        right: 180px;
+      }
+      .border-img{
+        width: 199px;
+        height: 299px;
+        right: 216px;
+      }
+  }
