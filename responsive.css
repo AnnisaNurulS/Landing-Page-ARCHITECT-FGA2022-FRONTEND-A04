@@ -131,6 +131,24 @@
     }
     /*CONTENT END 1000px/ Content Here It's Work*/
     
+    /* ============================ client comment dan footer*/
+    .comment-wrapper {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .comment{
+        width: 280px;
+        padding: 35px 40px;
+        
+    }
+    .footer-list li{
+        padding: 15px;
+    }
+    .footer-list ul{
+        margin-right: 85px;
+    }
+    
 }
 
 @media screen and (max-width: 670px){
@@ -241,6 +259,38 @@
         line-height: 21px;
     }
     /*CONTENT END 670px/ Content Here It's Work*/
+    
+    /* ========================== responsive client comment dan footer*/
+    .comment-wrapper{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 650px;
+    }
+    .heading h2{
+        text-align: center;
+    }
+    .comments{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .comment{
+        padding-left: 30px;
+        margin-top: 45px;
+        width: 400px;
+    }
+    .footer-list h2{
+        margin-left: 0px;
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+    .footer-list {
+        padding: 45px;
+        flex-direction: column;
+    }
+    .footer-list ul{
+        margin-right: 0px;
+        
+    }
 }
 
 /* ===== Responsive Tambahan Latest Project ===== */
