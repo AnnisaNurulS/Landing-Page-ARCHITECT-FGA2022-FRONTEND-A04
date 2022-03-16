@@ -186,6 +186,7 @@
 /*CONTENT START*/
 
 .container {
+    background: hsl(0, 0%, 14%); 
     max-width: 1440px;
     width: 100%;
   }
