@@ -7,3 +7,5 @@ Anggota Kelompok :
 3. Alda Putri             : Bagian Footer & Clients Comment
 4. Andrean Dwi Andaru     : Bagian Header & Head Content
 5. Annisa Nurul Sholihah  : Bagian Content Latest Project
+
+Akses website cepat : https://annisanuruls.github.io/Landing-Page-ARCHITECT-FGA2022-FRONTEND-A04/
