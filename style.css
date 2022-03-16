@@ -355,25 +355,22 @@ body{
 
 /* bagian Client Comment */
 .comment-wrapper{
-    height: 469px;
     padding-top: 100px;
     padding-left: 200px;
     padding-right: 200px;
     background-color: #242424;
     width: 100%;
-    margin-bottom: 50px;
 }
 .heading h2{
-    height: 20px;
     font-size: 36px;
     color: #EAEF58;
 }
 .comments {
-    height: 400px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    margin: 50px 0px 0px;
 }
 .comment{   
     display: inline-block; 
@@ -384,6 +381,7 @@ body{
     padding: 30px 35px;
     height: 250px;
     transition: 0.3s ease-out;
+    margin-bottom: 50px;
 }
 
 .comment:hover{
@@ -430,6 +428,7 @@ a:hover{
 
 .footer-list{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -446,7 +445,7 @@ a:hover{
 }
 
 .footer-list li{
-    float: left;
+    display: inline-block;
     font-size: 18px;
     color: #ffffff;
     margin: 10px 20px;    
