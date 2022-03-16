@@ -186,16 +186,15 @@
 /*CONTENT START*/
 
 .container {
-    background: hsl(0, 0%, 14%); 
-    max-width: 1440px;
     width: 100%;
+    background: hsl(0, 0%, 14%); 
   }
 
 .content{
     position: relative;
     width: 1028px;
     height: 595px;
-    margin: 100px 206px;
+    margin: 0px 206px;
     /* left: 206px; */
     /*top: 2500px;*/
 }
