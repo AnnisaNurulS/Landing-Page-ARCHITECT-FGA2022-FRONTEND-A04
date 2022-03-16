@@ -3,7 +3,7 @@ header {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-
+  
   .header-wrapper{
     background-color: rgba(51, 51, 51, 0.782);
     position: fixed;
@@ -13,7 +13,7 @@ header {
   }
 
   .topnav {
-    overflow: hidden;           /*Pembungkus navbar*/
+    overflow: hidden;  /*Pembungkus navbar*/
   }
   
   .logo-left{                   /*Logo Architecture kiri navbar*/
@@ -53,13 +53,13 @@ header {
   .topnav .icon {                               /*icon burger navbar*/
     display: none;
   }
-  
+
  .top-wrapper{                                      /*Gambar background*/
+    height: 959px;
+    background: url(image/top-wrapper.jpeg);
+    align-items: left;
+    background-size: cover;
  
-  height: 959px;
-  background: url(image/top-wrapper.jpeg);
-  align-items: left;
-  background-size: cover;
 }
 
 .tulisan-besar{
@@ -78,6 +78,7 @@ header {
     font-weight: normal;
     letter-spacing: 0.05em;
 }
+
 /* Header Akhir*/
 
 
@@ -385,7 +386,7 @@ body{
 }
 
 .comment:hover{
-    transform: translateY(-5px);
+    transform: translateY(-5px)
 }
 
 .comment h2{    
@@ -448,6 +449,6 @@ a:hover{
     display: inline-block;
     font-size: 18px;
     color: #ffffff;
-    margin: 10px 20px;    
+    margin: 10px 20px;
     list-style: none;
 }
