@@ -2,15 +2,18 @@
 header {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .header-wrapper{
+    background-color: rgba(51, 51, 51, 0.782);
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1;
+    z-index: 10;
   }
-  
+
   .topnav {
-    overflow: hidden;
-    background-color: #333;  /*Pembungkus navbar*/
+    overflow: hidden;           /*Pembungkus navbar*/
   }
   
   .logo-left{                   /*Logo Architecture kiri navbar*/
@@ -18,11 +21,10 @@ header {
     display: block;
     color: #EAEF58;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 20px;
     text-decoration: none;
     font-size: 17px;
     overflow: hidden;
-    background-color: #333; 
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0.15em;
@@ -33,7 +35,7 @@ header {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 20px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -57,8 +59,24 @@ header {
   height: 959px;
   background: url(image/top-wrapper.jpeg);
   align-items: left;
-  padding-top: 400px;
- 
+  background-size: cover;
+}
+
+.tulisan-besar{
+    color: white;
+    padding-left: 200px;
+    padding-top: 250px;
+}
+
+.tulisan-besar h3{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.tulisan-besar h1{
+    font-size: 80px;
+    font-weight: normal;
+    letter-spacing: 0.05em;
 }
 /* Header Akhir*/
 
